@@ -6,7 +6,7 @@ var urllib = require("urllib");
 var fs = require("fs");
 var app = express();
 var client = new Discord.Client();
-var discordtoken = "NzEwMDQ2MzQyMDk3MDEwNzY5.XruwSQ.J4jds-NVlUnKWk_NxONkIzG83nQ";
+var discordtoken = process.env.DISCORD_KEY;
 var xboxtoken = "cbddf965d064e72bc9ff663e6d7a136819aa44d6";
 var prefix = '!';
 // When the bot is ready, this'll run.
